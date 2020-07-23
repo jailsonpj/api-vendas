@@ -10,4 +10,9 @@ A API consome dados que estão armazenados no Elasticsearch Clound, uma ferramen
 
 # Arquivos de configuração
  - **Procfile** : O procfile é um arquivo de configuração responsável pela execução da API no Heroku.
- - **requirements.txt**: arquivo txt contendo as dependencias que são utilizadas na build da API.
+ - **requirements.txt**: arquivo txt contendo as dependências que são utilizadas na build da API.
+ - **Dockerfile**: arquivo utilizado para testes de build e funcionamento local da API.
+
+# Consumo da API
+A API está disponível em um cluster no Heroku e pode ser acessada pelo link:
+- `https://fastapi-vendas-bemol.herokuapp.com/`
